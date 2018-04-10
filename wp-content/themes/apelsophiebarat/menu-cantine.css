@@ -1,0 +1,47 @@
+
+.menu-cantine {
+	width: 100%;
+}
+
+.menu-cantine .date {
+	text-align: center;
+    font-weight: bold;
+}
+.menu-cantine .semaine {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu-cantine .jour {
+	width: 40%;
+	margin: 0.5em;
+	padding: 1em;
+	background-color: #EEEEEE;
+}
+.menu-cantine .nom {
+	 text-decoration: underline;
+	 text-align: center;
+}
+.menu-cantine .titre-plat {
+	content: "Plats du jour";
+	color: #ff6600;
+	margin-top: 1em;
+}
+.menu-cantine .titre-accompagnements {
+	content: "Accompagnemets";
+	color: #339966;
+	margin-top: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+	.menu-cantine .jour {
+		width: 40% ;		
+		flex: 0 0 40%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.menu-cantine .jour {
+		width: 100% ;		
+		flex: 0 0 100%;
+	}
+}

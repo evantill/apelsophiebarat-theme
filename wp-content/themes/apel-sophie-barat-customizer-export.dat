@@ -1,0 +1,48 @@
+a:4:{s:8:"template";s:9:"twentyten";s:4:"mods";a:10:{i:0;b:0;s:16:"background_color";s:6:"cbd401";s:16:"background_image";s:67:"http://www.apelsophiebarat.net/wp-content/uploads/2013/10/fond3.jpg";s:17:"background_repeat";s:8:"repeat-y";s:21:"background_position_x";s:6:"center";s:21:"background_attachment";s:6:"scroll";s:17:"header_image_data";a:5:{s:13:"attachment_id";i:2069;s:3:"url";s:80:"http://www.apelsophiebarat.net/wp-content/uploads/2013/10/copy-tetiere_optim.jpg";s:13:"thumbnail_url";s:80:"http://www.apelsophiebarat.net/wp-content/uploads/2013/10/copy-tetiere_optim.jpg";s:5:"width";i:940;s:6:"height";i:198;}s:12:"header_image";s:80:"http://www.apelsophiebarat.net/wp-content/uploads/2013/10/copy-tetiere_optim.jpg";s:18:"nav_menu_locations";a:1:{s:7:"primary";i:5;}s:18:"custom_css_post_id";i:3286;}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:768:"
+	.menu-cantine {
+		width: 100%;
+	}
+
+	.menu-cantine .date {
+		text-align: center;
+	    font-weight: bold;
+	}
+	.menu-cantine .semaine {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.menu-cantine .jour {
+		width: 40%;
+		margin: 0.5em;
+		padding: 1em;
+		background-color: #EEEEEE;
+	}
+	.menu-cantine .nom {
+		 text-decoration: underline;
+		 text-align: center;
+	}
+	.menu-cantine .titre-plat {
+		content: "Plats du jour";
+		color: #ff6600;
+		margin-top: 1em;
+	}
+	.menu-cantine .titre-accompagnements {
+		content: "Accompagnemets";
+		color: #339966;
+		margin-top: 1em;
+	}
+
+@media screen and (max-width: 1024px) {
+	.menu-cantine .jour {
+		width: 40% ;		
+		flex: 0 0 40%;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.menu-cantine .jour {
+		width: 100% ;		
+		flex: 0 0 100%;
+	}
+}
+";}
